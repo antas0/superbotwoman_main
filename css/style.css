@@ -1233,7 +1233,7 @@ p.help-block li {
 # Footer
 --------------------------------------------------------------*/
 #main-footer {
-  padding: center;
+  padding-left: 35%;
   background: darken($primary-color, 10);
   color: set-text-colour($primary-color);
   height: 60px;
@@ -1244,18 +1244,11 @@ p.help-block li {
   }
 
   .footer_icons {
-    margin-left: 5%;
+    margin-left: 50%;
     text-align: center;
     display: block;
     width: 100px;
     padding: 4px;
-    a {
-      align: center;
-
-      &:hover {
-        color: $secondary-color;
-        @include easeOut;
-      }
-    }
+  
   }
 }
