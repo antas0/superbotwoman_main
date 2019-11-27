@@ -1238,29 +1238,6 @@ p.help-block li {
   font-size: 14px;
   color: #fff;
 }
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-  color: #ffffffad;
-}
-
-#footer .credits {
-  text-align: center;
-  font-size: 13px;
-  color: #ffffff85;
-  margin-top: 8px;
-}
-
-#footer .credits a {
-  color: #0978d1;
-}
-.owl-carousel .owl-item img {
-    display: block;
-    width: auto;
-    height: 70px;
-    margin: 0 auto;
-}
 #main-footer {
   padding: center;
   background: darken($primary-color, 10);
