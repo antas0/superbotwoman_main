@@ -1261,3 +1261,30 @@ p.help-block li {
     height: 70px;
     margin: 0 auto;
 }
+#main-footer {
+  padding: center;
+  background: darken($primary-color, 10);
+  color: set-text-colour($primary-color);
+  height: 60px;
+
+  .footer_text {
+    text-align: right;
+    font-size: 17px;
+  }
+
+  .footer_icons {
+    margin-left: 5%;
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 4px;
+    a {
+      align: left;
+
+      &:hover {
+        color: $secondary-color;
+        @include easeOut;
+      }
+    }
+  }
+}
