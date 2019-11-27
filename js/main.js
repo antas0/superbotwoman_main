@@ -160,5 +160,4 @@ jQuery(document).ready(function($) {
         }
     });
 
-
 });
