@@ -1232,12 +1232,6 @@ p.help-block li {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  background: #ec3737;
-  padding: 0 0 30px 0;
-  font-size: 14px;
-  color: #fff;
-}
 #main-footer {
   padding: center;
   background: darken($primary-color, 10);
