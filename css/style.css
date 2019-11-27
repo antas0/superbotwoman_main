@@ -1268,7 +1268,7 @@ p.help-block li {
   height: 60px;
 
   .footer_text {
-    text-align: right;
+    text-align: center;
     font-size: 17px;
   }
 
@@ -1279,7 +1279,7 @@ p.help-block li {
     width: 100px;
     padding: 4px;
     a {
-      align: left;
+      align: center;
 
       &:hover {
         color: $secondary-color;
