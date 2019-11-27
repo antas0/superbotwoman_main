@@ -1232,23 +1232,19 @@ p.help-block li {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#main-footer {
-  padding-left: 35%;
-  background: darken($primary-color, 10);
-  color: set-text-colour($primary-color);
-  height: 60px;
+footer {
+	position: relative;
+	height: 300px;
+    width: 100%;
+    background-color: #333333;
+}
 
-  .footer_text {
-    text-align: center;
-    font-size: 17px;
-  }
-
-  .footer_icons {
-    margin-left: 50%;
-    text-align: center;
-    display: block;
-    width: 100px;
-    padding: 4px;
-  
-  }
+p.copyright {
+	position: absolute;
+	width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+	text-align: center;
+	bottom:0;
 }
