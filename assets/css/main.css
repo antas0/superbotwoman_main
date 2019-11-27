@@ -3618,10 +3618,14 @@
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
+			
 		}
 
 			#two .inner article {
+				white-space: nowrap;
 				width: 50%;
+				overflow: hidden;
+				text-overflow: ellipsis;
 			}
 
 				#two .inner article:first-child {
